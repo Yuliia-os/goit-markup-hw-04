@@ -84,15 +84,16 @@ header .container {
     display: flex;
     align-items: center;
 }
-.page-logo {
+header .page-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;;
-    margin-right:76px ;
+    color: #4d5ae5;
+    margin-right:76px;
+    
 }
 .logo-bl {
     color: #2e2f42;
@@ -418,9 +419,15 @@ color: #434455;
    letter-spacing: 0.02em;
 
 }
-.portfolio-list:hover .portfolio-popup{
+.portfolio-container:hover .portfolio-popup {
     transform: translateY(0%);
 }
+/* .portfolio-item:hover .portfolio-popup {
+    transform: translateY(0%);
+} */
+/* .portfolio-list:hover .portfolio-popup{
+    transform: translateY(0%);
+} */
 .portfolio-item-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -510,5 +517,5 @@ color: #434455;
 
 .footer-link:hover,
 .footer-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
